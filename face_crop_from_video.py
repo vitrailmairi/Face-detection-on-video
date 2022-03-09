@@ -13,6 +13,7 @@ from matplotlib import pyplot as plt
 cap = cv2.VideoCapture(os.path.join('Benchmark-Videos', 'Benchmark_1.mp4'))
 
 # Haarcascade for face detection
+# The face recognition library can be replaced using other face recognition such as Ageitgey/face recognition, CompareFace, Deepface, etc., by modifying the coding.
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Working with video captures
